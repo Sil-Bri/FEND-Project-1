@@ -1,4 +1,5 @@
 @import "nav.css";
+@import "form.css";
 @import "footer.css";
 
 /* Reset */
@@ -6,7 +7,6 @@
     margin: 0;
     padding: 0;
   }
-
 
 
 
@@ -211,19 +211,20 @@ img.author {
     font-size: 0.75rem;
     font-weight: 600;
     font-style: bold;
+    text-decoration: underline;
 }
 
 .author-title {
     background-color: #ffffff;
     font-size: 0.75rem;
     font-weight: 500;
+    font-style: italic;
 }
 
 .author-bio {
     background-color: #ffffff;
     font-size: 0.75rem;
-    font-weight: 500;
-    font-style: italic;
+    font-weight: 600;
 }
 
 /*Author*/
@@ -338,36 +339,5 @@ blockquote:after {
     content: "\279C  ";
 
 }
-
-
-/*Form*/
-
-input[type=text], textarea{
-    width: 75%;
-    padding: 5px 5px;
-    margin: 8px 0;
-    border: 2px solid #eb3118;
-    border-radius: 4px;
-}
-
-input[type=submit]{
-    background-color: #eb3118;
-    border: none;
-    border-radius: 6px;
-    color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #808080;
-    color: #eb3118;
-  }
-
-/*Form*/
 
 /* Content */
