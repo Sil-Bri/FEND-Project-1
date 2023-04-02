@@ -1,0 +1,35 @@
+@media (min-width: 701px) {
+    nav{
+        background-color: #808080;
+        text-align: right;
+        margin-right: 20px;
+        margin: 10px;
+    }
+    .fa-bars{
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    ul li{
+        width: auto;
+        float: left;
+    }
+
+    .menu {
+        visibility: hidden;
+        pointer-events: none ;
+    }
+
+    .max-menu {
+        background: #808080;
+        display: flex;
+        list-style:none;
+        visibility: visible !important;
+        pointer-events: all ;
+    }
+
+    .menuitem:hover {
+        background: #ffffff !important;
+        color: #eb3118 !important;
+    }
+}
